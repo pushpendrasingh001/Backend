@@ -9,7 +9,7 @@ import userRoute from "./route/user.route.js";
 const app = express();
 
 app.use(cors({
-    origin: ['https://mybookstore-one.vercel.app'],
+    origin: ['https://mybookstore-one.vercel.app',"http://localhost:5173"],
     credentials: true,
     sameSite: 'none'
 }));
