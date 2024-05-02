@@ -18,7 +18,7 @@ const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
 mongoose
-  .connect(URI, {
+  .connect("mongodb+srv://arnavpatel6548:Pushpa@cluster0.goapi31.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useUnifiedTopology: true,
   })
   .then(() => {
